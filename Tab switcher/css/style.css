@@ -1,0 +1,81 @@
+/*Global stylea
+-----------------------------------------------*/
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 300px;
+  max-height: 300px;
+}
+
+.hidden {
+  display: none;
+}
+
+/*Scrollbar stylea
+-----------------------------------------------*/
+
+body::-webkit-scrollbar {
+  width: 4px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #f7fff7;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #d1d1d1;
+  border-radius: 20px;
+}
+
+/*Table and tab-row stylea
+-----------------------------------------------*/
+
+.table {
+  border-collapse: collapse;
+  width: 300px;
+}
+
+.table td {
+  padding: 0;
+  margin: 0;
+}
+
+.tab-row:hover {
+  background-color: #98da9d;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  padding: 10px 10px;
+}
+
+.icon-td {
+  width: 16px;
+  height: 16px;
+}
+
+.btn-close-td {
+  width: 36px;
+  height: 36px;
+}
+
+.btn-close {
+  padding: 8px 8px;
+  cursor: pointer;
+}
+
+.tab-data {
+  cursor: default;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  float: left;
+  clear: left;
+  max-width: 264px;
+}
+
+.url {
+  color: #9b9b97;
+}
